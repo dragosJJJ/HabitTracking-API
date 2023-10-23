@@ -39,7 +39,7 @@ today = datetime.now()
 
 pixel_data = {
     "date": today.strftime("%Y%m%d"),
-    "quantity": "82",
+    "quantity": input("How many push-ups did you do today?"),
     "optionalData":"{\"exercise\":\"push-ups\"}"
 }
 # response = requests.post(url=pixel_creation_endpoint, json=pixel_data, headers=headers)
